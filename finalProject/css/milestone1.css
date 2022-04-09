@@ -1,0 +1,90 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url("../media/milestone1.jpg");
+    width: 100%;
+}
+h2{
+    background-color: whitesmoke;
+    width: auto;
+    opacity: .7;
+}
+h3{
+    background-color: whitesmoke;
+    width: 150px;
+    opacity: .7;
+}
+div{
+    flex: 1;
+}
+footer {
+    margin-top: 1000px;
+    width: 30%;
+    text-align: left;
+    background-color: black;
+    color: whitesmoke;
+padding-left: 20px;
+}
+.picture
+{
+  /* The Image Used */
+  background-image: url("../media/milestone1.jpg");
+  /* Full Height */
+  height: 100%;
+  /* Create Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.gameNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.gameNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #656565;
+    display: block;
+    transition: 0.3;
+}
+
+.gameNav a:hover {
+    color: whitesmoke;
+}
+.gameNav a:link, a:visited, a:active{
+		color:palegoldenrod;
+		text-decoration:none;
+}
+.gameNav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .3s;
+    padding: 16px;
+    
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;} /* decreases padding-top for mobile */
+    .sidenav a {font-size: 18px;} /* decreases link font-size for mobile */
+}

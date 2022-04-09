@@ -1,0 +1,43 @@
+p{
+    text-align: center;
+    background-color: black;
+    color: azure;
+    width: max-content;
+    margin: auto;
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: gray;
+
+}
+h2 {
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+.user_input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.picture
+{
+  /* The Image Used */
+  background-image: url("../media/adventure.jpg");
+  /* Full Height */
+  height: 100%;
+  /* Create Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}

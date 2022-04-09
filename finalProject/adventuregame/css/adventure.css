@@ -1,0 +1,48 @@
+.picture
+{
+  /* The Image Used */
+  background-image: url("../media/adventure.jpg");
+  /* Full Height */
+  height: 100%;
+  /* Create Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+h2 {
+  text-align: center;
+}
+footer {
+    margin-top: 1000px;
+    width: 30%;
+    text-align: left;
+    background-color: black;
+    color: whitesmoke;
+padding-left: 20px;
+}
+h2{
+  background-color: whitesmoke;
+  width: auto;
+  opacity: .7;
+}
+.Button
+{
+  width: 100px;
+  height: 50px;
+}
+p{
+  text-align: center;
+  background-color: black;
+  color: azure;
+  width: max-content;
+  margin: auto;
+  font-size: large;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-color: gray;
+
+}

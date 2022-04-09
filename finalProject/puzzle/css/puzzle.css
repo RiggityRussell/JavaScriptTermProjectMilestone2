@@ -1,0 +1,26 @@
+.picture
+{
+  /* The Image Used */
+  background-image: url("../media/puzzle.jpg");
+  /* Full Height */
+  height: 100%;
+  /* Create Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+footer {
+    margin-top: 1000px;
+    width: 30%;
+    text-align: left;
+    background-color: black;
+    color: whitesmoke;
+padding-left: 20px;
+}
+h2{
+  background-color: whitesmoke;
+  width: 430px;
+  opacity: .9;
+  text-shadow: darkblue 1px 1px;
+}
